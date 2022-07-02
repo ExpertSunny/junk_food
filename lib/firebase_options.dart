@@ -47,30 +47,30 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAAGPAl8fBpv8qPHE6SFw0T0FZtO5txDfg',
-    appId: '1:1028535103761:web:cf0e86a5e57654d06e9cb0',
-    messagingSenderId: '1028535103761',
-    projectId: 'recruiter-9f6a2',
-    authDomain: 'recruiter-9f6a2.firebaseapp.com',
-    storageBucket: 'recruiter-9f6a2.appspot.com',
-    measurementId: 'G-K49MVDHVWJ',
+    apiKey: 'AIzaSyCgPe7C8S8g_rA2IO-aHawS79hqhxQQqbM',
+    appId: '1:750683169731:web:47bb651e3e3e4f108b5376',
+    messagingSenderId: '750683169731',
+    projectId: 'junk-food-50a33',
+    authDomain: 'junk-food-50a33.firebaseapp.com',
+    storageBucket: 'junk-food-50a33.appspot.com',
+    measurementId: 'G-94778NWHBV',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBEXbOiRySx_LN9-E_H79coSxqRtrYRshE',
-    appId: '1:1028535103761:android:d14eab5b5553f4b16e9cb0',
-    messagingSenderId: '1028535103761',
-    projectId: 'recruiter-9f6a2',
-    storageBucket: 'recruiter-9f6a2.appspot.com',
+    apiKey: 'AIzaSyAgH18tT-GvFWzMsoRwi6tnYhFsC-vnO60',
+    appId: '1:750683169731:android:e0feab0e4db2274b8b5376',
+    messagingSenderId: '750683169731',
+    projectId: 'junk-food-50a33',
+    storageBucket: 'junk-food-50a33.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDGvKf09xwZxKzJxeZ33X5WNgr-RUSYJys',
-    appId: '1:1028535103761:ios:12f980c22c7f10c16e9cb0',
-    messagingSenderId: '1028535103761',
-    projectId: 'recruiter-9f6a2',
-    storageBucket: 'recruiter-9f6a2.appspot.com',
-    iosClientId: '1028535103761-ocb6oah448hs6q60eiqe8m67k9st3qiq.apps.googleusercontent.com',
-    iosBundleId: 'com.example.flutterApp',
+    apiKey: 'AIzaSyAM_1j1BUsCWLw2rkg7NjRWfbPaD4Qa6ik',
+    appId: '1:750683169731:ios:ebc52f5526329d328b5376',
+    messagingSenderId: '750683169731',
+    projectId: 'junk-food-50a33',
+    storageBucket: 'junk-food-50a33.appspot.com',
+    iosClientId: '750683169731-jk94e4qa6j5kl9e90ci0jtnv8th06n9h.apps.googleusercontent.com',
+    iosBundleId: 'com.junkfood.junkFood',
   );
 }

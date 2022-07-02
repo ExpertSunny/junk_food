@@ -1,41 +1,34 @@
 {
   "project_info": {
-    "project_number": "1028535103761",
-    "project_id": "recruiter-9f6a2",
-    "storage_bucket": "recruiter-9f6a2.appspot.com"
+    "project_number": "750683169731",
+    "project_id": "junk-food-50a33",
+    "storage_bucket": "junk-food-50a33.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1028535103761:android:d14eab5b5553f4b16e9cb0",
+        "mobilesdk_app_id": "1:750683169731:android:e0feab0e4db2274b8b5376",
         "android_client_info": {
-          "package_name": "com.example.flutter_app"
+          "package_name": "com.junkfood.junk_food"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1028535103761-6dgvskth02c995kei7dh7v49d7iuo9f4.apps.googleusercontent.com",
+          "client_id": "750683169731-ki1nmiediudsa3asvt6l5c20n2t5s64m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBEXbOiRySx_LN9-E_H79coSxqRtrYRshE"
+          "current_key": "AIzaSyAgH18tT-GvFWzMsoRwi6tnYhFsC-vnO60"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1028535103761-6dgvskth02c995kei7dh7v49d7iuo9f4.apps.googleusercontent.com",
+              "client_id": "750683169731-ki1nmiediudsa3asvt6l5c20n2t5s64m.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "1028535103761-ocb6oah448hs6q60eiqe8m67k9st3qiq.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.flutterApp"
-              }
             }
           ]
         }

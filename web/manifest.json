@@ -1,6 +1,6 @@
 {
-    "name": "flutter_app",
-    "short_name": "flutter_app",
+    "name": "junk_food",
+    "short_name": "junk_food",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
