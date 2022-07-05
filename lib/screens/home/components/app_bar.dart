@@ -27,9 +27,16 @@ AppBar homeAppBar(BuildContext context) {
     ),
     actions: <Widget>[
       IconButton(
-        icon: SvgPicture.asset("assets/icons/notification.svg"),
+        icon: Icon(
+          Icons.shopping_basket_outlined,
+          color: kPrimaryColor,
+          size: 30,
+        ),
         onPressed: () {},
       ),
+      SizedBox(
+        width: 10,
+      )
     ],
   );
 }

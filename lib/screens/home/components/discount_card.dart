@@ -63,7 +63,7 @@ class DiscountCard extends StatelessWidget {
                               ),
                             ),
                             TextSpan(
-                              text: "at MacDonald's on your first order & Instant cashback",
+                              text: "at McDonalds on your first order",
                               style: TextStyle(fontSize: 10),
                             ),
                           ],

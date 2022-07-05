@@ -61,7 +61,6 @@ class ItemCard extends StatelessWidget {
                   child: SvgPicture.asset(
                     svgSrc,
                     width: size.width * 0.18,
-                    // size.width * 0.18 means it use 18% of total width
                   ),
                 ),
                 Text(title),

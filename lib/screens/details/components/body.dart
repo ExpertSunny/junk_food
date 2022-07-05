@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cart/flutter_cart.dart';
 import 'package:junk_food/constants.dart';
+import 'package:junk_food/screens/checkout.dart';
 import 'package:junk_food/screens/details/components/item_image.dart';
 import 'package:junk_food/screens/details/components/order_button.dart';
 import 'package:junk_food/screens/details/components/title_price_rating.dart';
@@ -40,32 +42,38 @@ class ItemInfo extends StatelessWidget {
       ),
       child: Column(
         children: <Widget>[
-          shopeName(name: "MacDonalds"),
+          shopName(name: "Burger Singh"),
           TitlePriceRating(
-            name: "Cheese Burger",
+            name: "Tikka Burger",
             numOfReviews: 24,
             rating: 4,
-            price: 15,
+            price: 259,
             onRatingChanged: (value) {},
           ),
           Text(
-            "Nowadays, making printed materials have become fast, easy and simple. If you want your promotional material to be an eye-catching object, you should make it colored. By way of using inkjet printer this is not hard to make. An inkjet printer is any printer that places extremely small droplets of ink onto paper to create an image.",
+            "jhfbseyuh hubfqwuyghuwej KJQSOIjd iuhdu ayfguy asdgtyfws fbuyhguye buhegfuyw asuycgsytgvy suydtgyt tyeegfytsy uyfgytnbgfvynnv pawokdoi yuguy yufgytv ytfytfu ytuftyf",
             style: TextStyle(
               height: 1.5,
             ),
           ),
           SizedBox(height: size.height * 0.1),
-          // Free space  10% of total height
           OrderButton(
             size: size,
-            press: () {},
+            press: () {
+              Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const Checkout(),
+                            ),
+                          );
+            },
           )
         ],
       ),
     );
   }
 
-  Row shopeName({required String name}) {
+  Row shopName({required String name}) {
     return Row(
       children: <Widget>[
         Icon(

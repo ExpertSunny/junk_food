@@ -23,7 +23,7 @@ class _RegisterPageState extends State<RegisterPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff222f3e),
+      backgroundColor: Color(0xFFFFC61F),
       body: Container(
         padding: const EdgeInsets.all(20),
         child: Column(
@@ -33,9 +33,7 @@ class _RegisterPageState extends State<RegisterPage> {
             const Text(
               'Sign up',
               style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 40,
-              ),
+                  fontWeight: FontWeight.bold, fontSize: 40, color: Color.fromARGB(255, 0, 0, 0)),
             ),
             const SizedBox(
               height: 60,
