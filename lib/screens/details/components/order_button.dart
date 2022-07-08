@@ -29,7 +29,9 @@ class OrderButton extends StatelessWidget {
             Navigator.pushReplacement(
               context,
               MaterialPageRoute(
-                builder: (context) => const Checkout(),
+                builder: (context) => Checkout(
+                  price: '0'  ,
+                ),
               ),
             );
           }, //Add function

@@ -61,11 +61,13 @@ class ItemInfo extends StatelessWidget {
             size: size,
             press: () {
               Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => const Checkout(),
-                            ),
-                          );
+                context,
+                MaterialPageRoute(
+                  builder: (context) => Checkout(
+                    price: '0',
+                  ),
+                ),
+              );
             },
           )
         ],

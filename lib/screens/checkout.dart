@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 
 class Checkout extends StatelessWidget {
-  const Checkout({Key? key}) : super(key: key);
+  String price;
+  Checkout({
+    Key? key,
+    required this.price,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +24,7 @@ class Checkout extends StatelessWidget {
               ),
               Text("Your Order has been placed successfully."),
               Text(
-                "₹259",
+                price,
                 style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
               ),
               Text("Payment mode: Cash on Takeaway")

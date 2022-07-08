@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter_cart/flutter_cart.dart';
 import 'package:junk_food/constants.dart';
+import 'package:junk_food/screens/checkout.dart';
 import 'package:smooth_star_rating_null_safety/smooth_star_rating_null_safety.dart';
 
 class DishCard extends StatelessWidget {
@@ -28,6 +29,7 @@ class DishCard extends StatelessWidget {
       padding: EdgeInsets.symmetric(vertical: 8),
       child: GestureDetector(
         onTap: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => Checkout(price: cart.getTotalAmount().toString())));
           cart.addToCart(productId: dishName, unitPrice: dishPrice);
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
